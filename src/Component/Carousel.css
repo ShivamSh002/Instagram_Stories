@@ -1,0 +1,14 @@
+    .warpper {
+        img {
+            width: 70px;
+            border-radius: 50%;
+        }
+        p {
+            width: 80px;
+            text-align: start;
+            margin-top: -5px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
