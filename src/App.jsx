@@ -1,13 +1,11 @@
 import React, { useEffect } from "react";
-import axios from "axios";
 import "./App.css";
-import Stories from "./Component/Stories";
+import Carousel from "./Component/Carousel";
 
 const App = () => {
   return (
     <div>
-      <p className="head">Instagram</p>
-      <Stories />
+      <Carousel />
     </div>
   );
 };
