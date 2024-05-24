@@ -15,7 +15,9 @@ const Carousel = () => {
   const [isOpen, setIsOpen] = useState(false);
   const fetchData = async () => {
     try {
-      const res = await axios.get("http://localhost:3001/data");
+      const res = await axios.get(
+        "https://instagram-stories.onrender.com/data"
+      );
 
       setData(res.data);
       console.log(data);
